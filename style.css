@@ -1,9 +1,10 @@
-.logo{font-family: Raleway;
+.logo{
     font-size: 26px;
     font-weight: 700;
     line-height: 31px;
     letter-spacing: 0.03em;
      color: #2196F3;
+     padding-right: 93px;
     }
     .nav-list-link{
         font-family: Roboto;
@@ -26,10 +27,25 @@ color: #757575;
     }
     ul{
      list-style: none;
+     padding: 0;
+    margin: 0;
+    }
+    p,h1,h2,h3,h4,h5{
+        margin: 0;
+    }
+    address{
+        font-style: normal;
+        margin-top: 20px;
     }
     .header-logo{
        color: #000000; 
+
     }
+    .footer-logo {
+        color: #FFFFFF;
+    }
+
+
 .contacts-list-link:hover,.nav-list-link:hover{
     color: #2196F3;
 }
@@ -88,6 +104,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 80px;
 }
 .contacts-list.new-list{
      display: flex;
@@ -96,6 +113,9 @@ header{
 .nav-list,.contacts-list{
     display: flex;
     gap: 50px;
+}
+.contacts-list{
+    margin-left: 150px;
 }
 .features-list{
     display: flex;
@@ -106,6 +126,17 @@ header{
     color: #212121;
     font-size: 36px;
     text-align: center;   
+}
+.section-features{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 93px;
+max-width: 1200px;
+margin: 0 auto;
 }
 .work-title-img{
     display: flex;
@@ -118,9 +149,125 @@ header{
 }
 .section-team{
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .team-list{
     display: flex;
     justify-content: center;
     gap: 30px; 
 }
+.team-title{
+    margin-bottom: 50px;
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.team-list-content-wrap{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.team-list-title{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center; 
+    color: #212121;   
+}
+.team-list-text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575;    
+}
+.team-list-item{
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 2px #484848;
+    ;
+}
+.box{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.addres-list-item{
+    margin-bottom: 9px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.now-list-item{
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+body{
+    margin: 0;
+}
+.team-list-title{
+    margin-bottom: 10px;
+}
+footer{
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: #2F303A;
+}
+.box{
+    max-width: 1200px;
+   
+    margin-left: 50px;
+}
+.footer-text{
+    color: #FFFFFF;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+.footer-mail-tel{
+   color:  #FFFFFF99;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+.filters-list{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 34px;
+  }
+.portfolio-section {
+padding-top: 94px;
+padding-bottom: 94px;
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    min-width: 1200px;
+  }
+  .filters-list-btn {
+    border: none;
+    padding: 6px 22px;
+    transition: 0.5s;
+  }
+  .filters-list-btn:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+  }

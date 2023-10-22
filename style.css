@@ -7,7 +7,7 @@
      padding-right: 93px;
     }
     .nav-list-link{
-        font-family: Roboto;
+       
 font-size: 14px;
 font-weight: 500;
 line-height: 16px;
@@ -15,7 +15,7 @@ letter-spacing: 0.02em;
  color: #212121;
     }
     .contacts-list-link{
-        font-family: Roboto;
+       
 font-size: 14px;
 font-weight: 500;
 line-height: 16px;
@@ -267,7 +267,7 @@ padding-bottom: 94px;
     transition: 0.5s;
   }
   .filters-list-btn:hover{
-    background-color: #2196F3;
+    background-color: #2699f8;
     color: #FFFFFF;
     cursor: pointer;
   }
